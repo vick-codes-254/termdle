@@ -1,17 +1,29 @@
+<<<<<<< HEAD
 # Termdle
+=======
+#  Termdle
+>>>>>>> b1410e40695910de3142c039afbe6af74fd72386
 
 [Wordle](https://en.wikipedia.org/wiki/Wordle) for your terminal — colored feedback, an on-screen keyboard, and persistent stats. Written in **pure Python 3** (standard library only).
 
 ![lang](https://img.shields.io/badge/Python-3.8%2B-3776ab) ![deps](https://img.shields.io/badge/dependencies-none-ffd343) ![license](https://img.shields.io/badge/license-MIT-yellow)
 
+<<<<<<< HEAD
 ## Features
+=======
+##  Features
+>>>>>>> b1410e40695910de3142c039afbe6af74fd72386
 - **Real Wordle scoring** — correct two-pass green/yellow logic that handles repeated letters properly
 - **ANSI color board** + a live **on-screen keyboard** that tracks each letter's best-known state
 - **Persistent stats** — games played, win %, current & best streak, and a guess-distribution histogram (saved to `termdle_stats.json`)
 - **Cross-platform** — forces UTF-8 output and enables ANSI on Windows, so emoji and block characters render without crashing
 - Built-in ~700-word dictionary; **no internet, no dependencies**
 
+<<<<<<< HEAD
 ## Play
+=======
+##  Play
+>>>>>>> b1410e40695910de3142c039afbe6af74fd72386
 ```bash
 python termdle.py
 ```
@@ -23,15 +35,26 @@ Type a 5-letter word and press Enter. You get 6 guesses.
 | Yellow | Right letter, wrong spot |
 | Gray | Not in the word |
 
+<<<<<<< HEAD
 ## Deterministic mode
+=======
+##  Deterministic mode
+>>>>>>> b1410e40695910de3142c039afbe6af74fd72386
 Set the answer (handy for testing or sharing a puzzle):
 ```bash
 TERMDLE_WORD=pizza python termdle.py      # macOS / Linux
 set TERMDLE_WORD=pizza && python termdle.py  # Windows cmd
 ```
 
+<<<<<<< HEAD
 ## How the scoring works
 First pass marks exact matches green and decrements that letter's remaining count. A second pass marks a letter yellow only if an unmatched copy of it still remains in the answer — this is what makes guesses like `LLAMA` against `ALLAY` score correctly.
 
 ## License
+=======
+##  How the scoring works
+First pass marks exact matches green and decrements that letter's remaining count. A second pass marks a letter yellow only if an unmatched copy of it still remains in the answer — this is what makes guesses like `LLAMA` against `ALLAY` score correctly.
+
+##  License
+>>>>>>> b1410e40695910de3142c039afbe6af74fd72386
 MIT.
