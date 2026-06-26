@@ -1,0 +1,6 @@
+termdle_stats.json
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+.DS_Store
